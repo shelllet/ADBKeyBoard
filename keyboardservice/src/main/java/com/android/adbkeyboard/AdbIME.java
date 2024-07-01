@@ -26,7 +26,7 @@ public class AdbIME extends InputMethodService {
 
     @Override
     public View onCreateInputView() {
-        View mInputView = getLayoutInflater().inflate(R.layout.view, null);
+        View mInputView = getLayoutInflater().inflate(R.layout.view,  parent, false);
 
         if (mReceiver == null) {
             IntentFilter filter = new IntentFilter(IME_MESSAGE);
