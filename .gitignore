@@ -25,3 +25,8 @@ local.properties
 # Gradle
 local.properties
 .gradle/
+
+
+# build app
+
+keyboardservice/release/
