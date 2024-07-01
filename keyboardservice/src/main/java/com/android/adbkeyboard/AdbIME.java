@@ -9,6 +9,7 @@ import android.util.Base64;
 import android.view.InputDevice;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 
@@ -26,7 +27,7 @@ public class AdbIME extends InputMethodService {
 
     @Override
     public View onCreateInputView() {
-        View mInputView = getLayoutInflater().inflate(R.layout.view,  parent, false);
+        View mInputView = getLayoutInflater().inflate(R.layout.view,  (ViewGroup)null);
 
         if (mReceiver == null) {
             IntentFilter filter = new IntentFilter(IME_MESSAGE);
