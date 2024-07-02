@@ -1,5 +1,10 @@
 ADBKeyBoard 
 ===========
+基于原版本，做了一些变更：
+* 修复了一些警告，并编译了 *release* 版本。
+* 该版本已经集成至 *winui++* 中。
+
+下载最新 *release*版本（或使用 *winui++*安装包）：https://github.com/shelllet/ADBKeyBoard/releases/tag/2.0
 
 Android Virtual Keyboard Input via ADB
 
